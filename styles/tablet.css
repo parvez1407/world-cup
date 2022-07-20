@@ -1,4 +1,4 @@
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media only screen and (min-width: 577px) and (max-width: 992px) {
     /* common section  */
     main{
         display: flex;
@@ -29,6 +29,9 @@
     }
     .top-article p span{
         display: none;
+    }
+    .top-player img{
+        padding-top: 75px;
     }
 
     /* blog section  */
@@ -90,6 +93,9 @@
 }
 
 /* footer section  */
+.footer-container{
+    margin-top: 30px;
+}
 .menu{
     display: inline-block;
 }

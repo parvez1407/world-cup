@@ -50,18 +50,17 @@ main{
     color: #ffffff;
     margin-bottom: 40px;
 }
-.top-article a{
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    color: #ffffff;
+.btn-watch{
+    width: 187px;
+    height: 56px;
     background-color: #DD0000;
-    padding: 16px 45px;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer; 
 }
-.top-article a i{
-    margin-left: 5px;
-}
+
 .top-player{
     width: 55%;
 }
@@ -108,11 +107,11 @@ main{
     font-size: 20px;
     font-weight: 500;
 }
-.blog-link{
+.u-match{
     background-color: #DD0000;
     
 }
-.blog-link a{
+.u-match a{
     color: #ffffff;
 }
 
