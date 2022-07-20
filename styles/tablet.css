@@ -61,6 +61,21 @@
         border-radius: 10px;
         border: 1px solid #E8E8E8;        
     }
+    .u-match-1 a{
+        color: #000000;
+    }
+    .blog-link-1{
+        padding: 18px 0;
+        text-align: center;
+        background-color: #DD0000;
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;
+        
+    }
+    .blog-link-1 a{
+        color: #ffffff;
+    }
+
     .blog-link{
         padding: 16px 50px;
     }
