@@ -1,0 +1,205 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common Parts */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1320px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* ------------------------------------
+        Topper Section style start
+-------------------------------------- */
+.topper{
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-article{
+    width: 45%;
+    padding-left: 60px;
+    padding-bottom: 75px;
+}
+.top-article h1{
+    font-size: 70px;
+    color: #ffffff;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.top-article p{
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.top-article a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #DD0000;
+    padding: 16px 45px;
+    border-radius: 10px;
+}
+.top-article a i{
+    margin-left: 5px;
+}
+.top-player{
+    width: 55%;
+}
+.top-player img{
+    width: 100%;
+    padding-top: 33px;
+    padding-right: 79px;
+    padding-left: 24px;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* ------------------------------------
+        Topper Section style Eng
+-------------------------------------- */
+
+/* ------------------------------------
+        Blogs style start
+-------------------------------------- */
+
+.main-blogs{
+    display: grid;
+    grid-template-columns: 312px repeat(2, 3fr);
+    column-gap: 18px;
+}
+.fixed-blog{
+    background-color: #161616;
+    height: 312px;
+    border-radius: 10px;
+}
+.fixed-blog a{
+    text-decoration: none;
+    color: #000000;
+}
+.u-match, .a-group, .blog-link{
+    margin: 28px;
+    padding: 18px 0;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+}
+.u-match, .a-group, .blog-link a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-link{
+    background-color: #DD0000;
+    
+}
+.blog-link a{
+    color: #ffffff;
+}
+
+.variable-blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+}
+.blog{
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    height: 242px;
+}
+.ficture{
+    padding: 53px 30px;
+}
+
+.cvc{
+    display: flex;
+    align-items: center;
+}
+.cvc-img{
+    margin: 15px;
+    width: 100%;
+}
+.ficture h3{
+   color: #161616;
+   font-weight: 600;
+   font-size: 20px;
+   text-align: center;
+   margin: 0;
+}
+.ficture h4{
+    color: #4D4D4D;
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   margin: 10px 0 0 0;
+}
+/* ------------------------------
+        Footer Style Start
+---------------------------------*/
+
+.footer-container{
+    background-color: #161616;
+}
+.footer{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+hr{
+    width: 1320px;
+}
+.menu{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.menu a{
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.social-icon{
+    
+    text-align: center;
+}
+
+.social-icon a{
+    text-decoration: none;
+}
+.social-icon a i{
+    color: #B9B9B9;
+    font-size: 35px;
+    margin: 25px;
+   
+}
+.social-icon a i:hover{
+    color: #DD0000;
+}
+
+
