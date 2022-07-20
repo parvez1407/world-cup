@@ -9,8 +9,15 @@
     <title>Let's Enjoy World Cup!</title>
     <!-- Main Css -->
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- responsive css for mobile -->
+    <link rel="stylesheet" href="styles/mobile.css">
+    <!-- responsive css for tablet -->
+    <link rel="stylesheet" href="styles/tablet.css">
+
     <!-- fontawsome -->
     <script src="https://kit.fontawesome.com/3b02ef54bf.js" crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -24,8 +31,12 @@
             <div class="topper">
                 <div class="top top-article">
                     <h1>The Greatest show on the earth</h1>
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <p title="It has roots in a piece
+                    of
+                    classical Latin literature from 45 BC, making it over 2000 years old.">Contrary to popular belief,
+                        Lorem Ipsum is not simply random text. <span> It has roots in a piece
+                            of
+                            classical Latin literature from 45 BC, making it over 2000 years old.</span></p>
                     <a href="#">Watch Live <i class="fa-solid fa-chevron-right"></i></a>
                 </div>
                 <div class="top top-player">
@@ -42,11 +53,13 @@
         -------------------------------------- -->
         <section class="container">
             <div class="main-blogs">
+                <!-- fixed blog link part -->
                 <div class="blogs fixed-blog">
                     <div class="u-match"><a href="upcoming-match.html">Upcoming Match</a></div>
                     <div class="a-group"><a href="">All Group</a></div>
                     <div class="blog-link"><a href="">Blog</a></div>
                 </div>
+                <!-- main blogs part -->
                 <div class="blogs variable-blogs">
                     <div class="blog">
                         <div class="blog-image"><img src="assets/Blog Image.png" alt="Blog Image"></div>
@@ -120,7 +133,7 @@
                             <span class="comment"><i class="fa-regular fa-message"></i> 23</span>
                         </div>
                     </div>
-                    <div class="blog">
+                    <div class="blog last-blog">
                         <div class="blog-image"><img src="assets/Blog Image.png" alt="Blog Image"></div>
                         <div class="blog-content">
                             <a href="">Transfer</a>
@@ -130,6 +143,8 @@
                         </div>
                     </div>
                 </div>
+                <button class="btn-sa">View All</button>
+            </div>
             </div>
         </section>
         <!-- ----------------------------------
@@ -144,15 +159,14 @@
         <footer class="footer">
             <h2>Goal</h2>
             <hr>
-            <div class="menu">
-                <div><a href="">Contact Us</a></div>
-                <div><a href="">Terms of Service</a></div>
-                <div><a href="">Privacy Policy</a></div>
-                <div><a href="">Privacy Settings</a></div>
-                <div><a href="">Goal App</a></div>
-                <div><a href="">Goal Live</a></div>
-
-            </div>
+            <ul class="menu">
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Privacy Settings</a></li>
+                <li><a href="">Goal App</a></li>
+                <li><a href="">Goal Live</a></li>
+            </ul>
             <div class="social-icon">
                 <a href="https://www.facebook.com/nahid1407/" target="_blank"><i
                         class="fa-brands fa-facebook-square"></i></a>
@@ -161,6 +175,9 @@
             </div>
         </footer>
     </section>
+    <!-- ----------------------------------
+                Footer section End
+    -------------------------------------- -->
 
 </body>
 

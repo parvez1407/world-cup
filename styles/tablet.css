@@ -1,0 +1,97 @@
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    /* common section  */
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        margin: 50px 50px 0 50px;
+        border-radius: 10px;
+        width: auto;
+        }
+
+    /* top section  */
+
+    .top-article{
+        width: 40%;
+        padding-left: 76px;
+    }
+    .top-article h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .top-article p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .top-article p span{
+        display: none;
+    }
+
+    /* blog section  */
+    .main-blogs{
+            position: relative;
+            grid-template-columns: 1fr;
+            row-gap: 24px;
+        }
+    .fixed-blog{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background: none;
+        width: auto;
+        height: auto;
+    }
+    .u-match, .a-group, .blog-link a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .u-match, .a-group{
+        
+        padding: 16px 32px;
+        text-align: center;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid #E8E8E8;        
+    }
+    .blog-link{
+        padding: 16px 50px;
+    }
+    .variable-blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-image img{
+        width: 100%;
+    }
+    .last-blog{
+        display: none;
+    }
+    
+    .btn-sa{
+        position: absolute;
+        background-color: #DD0000;
+        /*Green*/border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        border-radius: 5px;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%);
+}
+
+/* footer section  */
+.menu{
+    display: inline-block;
+}
+
+}
